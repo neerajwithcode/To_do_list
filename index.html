@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>to-do list</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Limelight&family=Zen+Kaku+Gothic+New&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main-container">
+      <h1 id="title">✦ To-Do List ✦</h1>
+      <input type="date" id="task-date" />
+      <div id="input-task">
+        <input
+          id="input-field"
+          type="text"
+          placeholder="What are we doing today?"
+        />
+        <button id="add-task-btn">Add</button>
+      </div>
+      <div id="tasks-container">
+        <div class="task"></div>
+      </div>
+      <div id="filter-btns">
+        <button id="all-tasks">All</button>
+        <button id="done-tasks">Done</button>
+        <button id="undone-tasks">Undone</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
